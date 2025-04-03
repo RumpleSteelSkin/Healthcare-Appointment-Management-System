@@ -1,0 +1,16 @@
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\bin\Debug\net8.0\Core.Persistence.deps.json
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\bin\Debug\net8.0\Core.Persistence.dll
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\bin\Debug\net8.0\Core.Persistence.pdb
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\Core.Persistence.csproj.AssemblyReference.cache
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\Core.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\Core.Persistence.AssemblyInfoInputs.cache
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\Core.Persistence.AssemblyInfo.cs
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\Core.Persistence.csproj.CoreCompileInputs.cache
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\Core.Persistence.sourcelink.json
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\Core.Per.1508F78C.Up2Date
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\Core.Persistence.dll
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\refint\Core.Persistence.dll
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\Core.Persistence.pdb
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\cores\Core.Persistence\obj\Debug\net8.0\ref\Core.Persistence.dll

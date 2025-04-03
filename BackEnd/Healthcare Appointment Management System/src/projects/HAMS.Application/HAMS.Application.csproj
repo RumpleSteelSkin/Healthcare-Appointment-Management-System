@@ -5,5 +5,16 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0"/>
+        <PackageReference Include="Bogus" Version="35.6.2"/>
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0"/>
+        <PackageReference Include="MediatR" Version="12.4.1"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\cores\Core.Application\Core.Application.csproj"/>
+        <ProjectReference Include="..\..\cores\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj"/>
+        <ProjectReference Include="..\HAMS.Domain\HAMS.Domain.csproj"/>
+    </ItemGroup>
 
 </Project>

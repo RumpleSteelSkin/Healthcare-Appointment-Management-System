@@ -9,13 +9,121 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04379b78-40a2-4b7e-bfe3-f08a8baabdf1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Healthcare Appointment Management System/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Healthcare Appointment Management System/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healthcare Appointment Management System.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare Appointment Management System.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/Models/Appointment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/Models/Doctor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/Models/Hospital.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/Models/Patient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/Configurations/AppointmentConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/Configurations/DoctorConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/Configurations/HospitalConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/Configurations/PatientConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Healthcare Appointment Management System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Healthcare Appointment Management System/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/Core.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/Core.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/Core.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/Core.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/Core.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/Core.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/Core.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/Core.Application.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Core.CrossCuttingConcerns.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Core.CrossCuttingConcerns.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Core.CrossCuttingConcerns.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Core.CrossCuttingConcerns.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Core.CrossCuttingConcerns.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Core.CrossCuttingConcerns.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Debug/net8.0/Core.CrossCuttingConcerns.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Debug/net8.0/Core.CrossCuttingConcerns.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Debug/net8.0/Core.CrossCuttingConcerns.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Debug/net8.0/Core.CrossCuttingConcerns.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Debug/net8.0/Core.CrossCuttingConcerns.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Debug/net8.0/Core.CrossCuttingConcerns.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/Core.Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/Core.Persistence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Core.Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Core.Persistence.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Core.Persistence.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Core.Persistence.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Core.Persistence.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Core.Persistence.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/HAMS.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/HAMS.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/HAMS.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/HAMS.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/HAMS.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/HAMS.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/HAMS.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/HAMS.Application.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/HAMS.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/HAMS.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/HAMS.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/HAMS.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/HAMS.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/HAMS.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/HAMS.Domain.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/HAMS.Domain.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/HAMS.Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/HAMS.Persistence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/HAMS.Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/HAMS.Persistence.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/HAMS.Persistence.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/HAMS.Persistence.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/HAMS.Persistence.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/HAMS.Persistence.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/HAMS.Presentation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/HAMS.Presentation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/HAMS.Presentation.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/ref/HAMS.Presentation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/ref/HAMS.Presentation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/refint/HAMS.Presentation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/Debug/net8.0/refint/HAMS.Presentation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/HAMS.Presentation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/HAMS.Presentation.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/HAMS.Presentation.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/HAMS.Presentation.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/HAMS.Presentation.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/HAMS.Presentation.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -32,10 +140,20 @@
     "accountId": "38cdaf31-7aa5-4925-bb98-2fafb9aa254d"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d81b2d4f22bee75e5438c707251ae43cb0974c207db91ffc159118c84b4eb9/ServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d8d9726f3deb1bbf671f5b791e4dc3e0338219a996f439ad2a69024b825c60/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2vEDpVjX0acfIhOcHpSQAHSsRwR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -95,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743701526202</updated>
       <workItem from="1743701532393" duration="44000" />
-      <workItem from="1743702374367" duration="650000" />
+      <workItem from="1743702374367" duration="5745000" />
     </task>
     <servers />
   </component>

@@ -1,16 +1,15 @@
+using HAMS.Application.Extensions;
+using HAMS.Persistence.Extensions;
+using HAMS.Presentation.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddPresentationServices(builder.Configuration);
+builder.Services.AddApplicationServices();
+builder.Services.AddPersistenceServices(builder.Configuration);
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment()) { app.UseSwagger(); app.UseSwaggerUI(); }
 
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
+app.AddPresentationApp(); //<<<The Last
