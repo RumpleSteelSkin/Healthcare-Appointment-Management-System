@@ -1,0 +1,6 @@
+@HAMS.Presentation_HostAddress = http://localhost:5010
+
+GET {{HAMS.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
