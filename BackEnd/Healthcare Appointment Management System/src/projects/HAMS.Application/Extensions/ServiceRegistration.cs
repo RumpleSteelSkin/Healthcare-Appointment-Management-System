@@ -4,6 +4,7 @@ using Core.Application.Pipelines.Authorization;
 using Core.Application.Pipelines.Caching;
 using Core.Application.Pipelines.Logging;
 using Core.Application.Pipelines.Performance;
+using Core.Application.Pipelines.Transactional;
 using Core.Application.Pipelines.Validation;
 using Core.CrossCuttingConcerns.Loggers.Serilog.Loggers;
 using Core.CrossCuttingConcerns.Loggers.Serilog.ServiceBase;
@@ -57,6 +58,7 @@ public static class ServiceRegistration
             //Pipeline Registration
             opt.AddOpenBehavior(typeof(ValidationPipeline<,>));
             opt.AddOpenBehavior(typeof(AuthorizationPipeline<,>));
+            opt.AddOpenBehavior(typeof(TransactionalPipeline<,>));
             opt.AddOpenBehavior(typeof(PerformancePipeline<,>));
             opt.AddOpenBehavior(typeof(LoggingPipeline<,>));
             opt.AddOpenBehavior(typeof(CacheRemovePipeline<,>));
@@ -64,8 +66,7 @@ public static class ServiceRegistration
         });
 
         #endregion
-
-
+        
         return services;
     }
 }
