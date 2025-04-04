@@ -18,3 +18,7 @@ D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare 
 D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Persistence\bin\Debug\net8.0\Core.Persistence.dll
 D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Persistence\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb
 D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Persistence\bin\Debug\net8.0\Core.Persistence.pdb
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Persistence\bin\Debug\net8.0\Core.Application.dll
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Persistence\bin\Debug\net8.0\HAMS.Application.dll
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Persistence\bin\Debug\net8.0\HAMS.Application.pdb
+D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Persistence\bin\Debug\net8.0\Core.Application.pdb

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HAMS.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+703a1ddf3d90c29f739f76812204833f21bf51b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2b42b9c7366e1f09c50e12a07090a0a02024782")]
 [assembly: System.Reflection.AssemblyProductAttribute("HAMS.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HAMS.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

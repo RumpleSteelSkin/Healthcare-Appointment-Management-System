@@ -21,11 +21,6 @@
 
 
     <ItemGroup>
-        <Folder Include="Controllers\"/>
-    </ItemGroup>
-
-
-    <ItemGroup>
       <ProjectReference Include="..\HAMS.Application\HAMS.Application.csproj" />
       <ProjectReference Include="..\HAMS.Domain\HAMS.Domain.csproj" />
       <ProjectReference Include="..\HAMS.Persistence\HAMS.Persistence.csproj" />
