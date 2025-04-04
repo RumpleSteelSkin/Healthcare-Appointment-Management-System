@@ -434,6 +434,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj": {
+                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj"
+              },
               "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj": {
                 "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj"
               }
