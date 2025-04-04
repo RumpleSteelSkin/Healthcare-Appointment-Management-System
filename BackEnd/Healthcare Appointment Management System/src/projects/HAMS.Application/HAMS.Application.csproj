@@ -16,5 +16,38 @@
         <ProjectReference Include="..\..\cores\Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj"/>
         <ProjectReference Include="..\HAMS.Domain\HAMS.Domain.csproj"/>
     </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Features\Appointment\" />
+      <Folder Include="Features\Authentication\Commands\Login\" />
+      <Folder Include="Features\Authentication\Commands\Register\" />
+      <Folder Include="Features\Authentication\Queries\GetAllUsers\" />
+      <Folder Include="Features\Authentication\Queries\GetUserById\" />
+      <Folder Include="Features\Authentication\Queries\GetUsersByRole\" />
+      <Folder Include="Features\Doctors\Commands\Add\" />
+      <Folder Include="Features\Doctors\Commands\Delete\" />
+      <Folder Include="Features\Doctors\Commands\Update\" />
+      <Folder Include="Features\Doctors\Queries\GetAll\" />
+      <Folder Include="Features\Doctors\Queries\GetById\" />
+      <Folder Include="Features\Hospitals\Commands\Add\" />
+      <Folder Include="Features\Hospitals\Commands\Delete\" />
+      <Folder Include="Features\Hospitals\Commands\Update\" />
+      <Folder Include="Features\Hospitals\Queries\GetAll\" />
+      <Folder Include="Features\Hospitals\Queries\GetById\" />
+      <Folder Include="Features\Patients\Commands\Add\" />
+      <Folder Include="Features\Patients\Commands\Delete\" />
+      <Folder Include="Features\Patients\Commands\Update\" />
+      <Folder Include="Features\Patients\Queries\GetAll\" />
+      <Folder Include="Features\Patients\Queries\GetById\" />
+      <Folder Include="Features\Roles\Commands\Add\" />
+      <Folder Include="Features\Roles\Commands\Delete\" />
+      <Folder Include="Features\Roles\Commands\Update\" />
+      <Folder Include="Features\Roles\Queries\GetAll\" />
+      <Folder Include="Features\Roles\Queries\GetById\" />
+      <Folder Include="Features\UserRoles\Commands\Add\" />
+      <Folder Include="Features\UserRoles\Commands\Delete\" />
+      <Folder Include="Features\UserRoles\Commands\Update\" />
+      <Folder Include="Features\UserRoles\Queries\GetAll\" />
+      <Folder Include="Features\UserRoles\Queries\GetById\" />
+    </ItemGroup>
 
 </Project>

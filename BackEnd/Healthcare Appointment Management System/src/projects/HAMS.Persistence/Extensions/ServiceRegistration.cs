@@ -1,8 +1,9 @@
-﻿using HAMS.Persistence.Contexts;
+﻿using HAMS.Application.Services.Repositories;
+using HAMS.Persistence.Contexts;
+using HAMS.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
 
 
 namespace HAMS.Persistence.Extensions;
@@ -23,7 +24,10 @@ public static class ServiceRegistration
 
         #region Repository Interface Define
 
-
+        services.AddScoped<IAppointmentRepository, AppointmentRepository>();
+        services.AddScoped<IDoctorRepository, DoctorRepository>();
+        services.AddScoped<IPatientRepository, PatientRepository>();
+        services.AddScoped<IHospitalRepository, HospitalRepository>();
 
         #endregion
 
