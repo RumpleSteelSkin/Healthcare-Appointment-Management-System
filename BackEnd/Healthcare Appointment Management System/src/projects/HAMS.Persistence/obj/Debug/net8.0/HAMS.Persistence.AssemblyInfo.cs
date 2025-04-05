@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HAMS.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2b42b9c7366e1f09c50e12a07090a0a02024782")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6a6dea8076dd1d6451f57878da7ed19c9499542")]
 [assembly: System.Reflection.AssemblyProductAttribute("HAMS.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HAMS.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

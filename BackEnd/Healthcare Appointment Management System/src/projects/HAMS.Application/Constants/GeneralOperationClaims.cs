@@ -1,4 +1,4 @@
-﻿namespace VCORE.Application.Constants;
+﻿namespace HAMS.Application.Constants;
 
 public static class GeneralOperationClaims
 {

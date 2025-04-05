@@ -19,7 +19,7 @@ public class GetCurrentUserQueryHandler : IRequestHandler<GetCurrentUserQuery, G
         if (string.IsNullOrEmpty(userId))
             throw new AuthenticationException("User ID claim is missing. Ensure the user is authenticated.");
 
-        var response = new GetCurrentUserQueryResponseDto()
+        var response = new GetCurrentUserQueryResponseDto
         {
             Id = userId,
             Roles = request.CurrentHttpContext.User.Claims

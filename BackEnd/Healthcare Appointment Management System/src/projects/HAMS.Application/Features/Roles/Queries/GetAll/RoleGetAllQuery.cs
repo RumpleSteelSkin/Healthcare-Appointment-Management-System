@@ -1,7 +1,7 @@
 ﻿using Core.Application.Pipelines.Authorization;
+using HAMS.Application.Constants;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using VCORE.Application.Constants;
 
 namespace HAMS.Application.Features.Roles.Queries.GetAll;
 

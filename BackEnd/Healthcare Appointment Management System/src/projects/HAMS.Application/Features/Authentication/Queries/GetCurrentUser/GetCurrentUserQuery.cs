@@ -1,8 +1,8 @@
 ﻿using System.Security.Claims;
 using Core.Application.Pipelines.Authorization;
+using HAMS.Application.Constants;
 using MediatR;
 using Microsoft.AspNetCore.Http;
-using VCORE.Application.Constants;
 
 namespace HAMS.Application.Features.Authentication.Queries.GetCurrentUser;
 

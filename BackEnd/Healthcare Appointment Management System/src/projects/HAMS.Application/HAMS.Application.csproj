@@ -17,26 +17,10 @@
         <ProjectReference Include="..\HAMS.Domain\HAMS.Domain.csproj"/>
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Features\Appointment\Commands\Add\" />
       <Folder Include="Features\Appointment\Commands\Delete\" />
       <Folder Include="Features\Appointment\Commands\Update\" />
       <Folder Include="Features\Appointment\Queries\GetAll\" />
       <Folder Include="Features\Appointment\Queries\GetById\" />
-      <Folder Include="Features\Doctors\Commands\Add\" />
-      <Folder Include="Features\Doctors\Commands\Delete\" />
-      <Folder Include="Features\Doctors\Commands\Update\" />
-      <Folder Include="Features\Doctors\Queries\GetAll\" />
-      <Folder Include="Features\Doctors\Queries\GetById\" />
-      <Folder Include="Features\Hospitals\Commands\Add\" />
-      <Folder Include="Features\Hospitals\Commands\Delete\" />
-      <Folder Include="Features\Hospitals\Commands\Update\" />
-      <Folder Include="Features\Hospitals\Queries\GetAll\" />
-      <Folder Include="Features\Hospitals\Queries\GetById\" />
-      <Folder Include="Features\Patients\Commands\Add\" />
-      <Folder Include="Features\Patients\Commands\Delete\" />
-      <Folder Include="Features\Patients\Commands\Update\" />
-      <Folder Include="Features\Patients\Queries\GetAll\" />
-      <Folder Include="Features\Patients\Queries\GetById\" />
       <Folder Include="Features\Roles\Commands\Delete\" />
       <Folder Include="Features\Roles\Commands\Update\" />
       <Folder Include="Features\Roles\Queries\GetById\" />

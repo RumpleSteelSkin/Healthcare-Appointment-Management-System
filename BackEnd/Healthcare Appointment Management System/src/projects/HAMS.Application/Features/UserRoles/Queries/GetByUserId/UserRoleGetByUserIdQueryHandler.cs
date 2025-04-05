@@ -16,7 +16,7 @@ public class UserRoleGetByUserIdQueryHandler(UserManager<User> userManager)
         if (user is null)
             throw new NotFoundException($"User with ID {request.UserId} not found!");
         
-        return new UserRoleGetByUserIdQueryResponseDto()
+        return new UserRoleGetByUserIdQueryResponseDto
         {
             Email = user.Email,
             Roles = await userManager.GetRolesAsync(user),

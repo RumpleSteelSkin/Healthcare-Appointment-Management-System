@@ -13,6 +13,8 @@ public class DoctorConfiguration : IEntityTypeConfiguration<Doctor>
         builder.Property(c => c.IsDeleted)
             .HasDefaultValue(false);
 
+        builder.Navigation(x => x.Hospital).AutoInclude();
+
         builder.HasOne(x => x.Hospital)
             .WithMany(x => x.Doctors)
             .HasForeignKey(x => x.HospitalId)

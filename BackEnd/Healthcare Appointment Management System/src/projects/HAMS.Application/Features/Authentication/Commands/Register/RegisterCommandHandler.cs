@@ -33,7 +33,7 @@ public class RegisterCommandHandler(UserManager<User> userManager, IJwtService j
             FirstName = request.FirstName,
             LastName = request.LastName,
             UserName = request.UserName,
-            Email = request.Email,
+            Email = request.Email
         };
 
         IdentityResult result = await userManager.CreateAsync(user, request.Password);
