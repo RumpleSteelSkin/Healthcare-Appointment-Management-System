@@ -9,6 +9,10 @@ using Core.Application.Pipelines.Validation;
 using Core.CrossCuttingConcerns.Loggers.Serilog.Loggers;
 using Core.CrossCuttingConcerns.Loggers.Serilog.ServiceBase;
 using FluentValidation;
+using HAMS.Application.Features.Appointment.Rules;
+using HAMS.Application.Features.Doctors.Rules;
+using HAMS.Application.Features.Hospitals.Rules;
+using HAMS.Application.Features.Patients.Rules;
 using Microsoft.Extensions.DependencyInjection;
 using HAMS.Application.Services.JwtServices;
 
@@ -46,6 +50,15 @@ public static class ServiceRegistration
         #region Bogus Services
 
         services.AddScoped(typeof(Faker<>));
+
+        #endregion
+
+        #region Business Rules Services
+
+        services.AddScoped<PatientBusinessRules>();
+        services.AddScoped<HospitalBusinessRules>();
+        services.AddScoped<DoctorBusinessRules>();
+        services.AddScoped<AppointmentBusinessRules>();
 
         #endregion
 

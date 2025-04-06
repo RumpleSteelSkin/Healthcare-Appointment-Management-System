@@ -11,5 +11,5 @@ public class PatientAddCommand : IRequest<string>, IRoleExists, ITransactional, 
     public required string FirstName { get; set; }
     public required string LastName { get; set; }
     public DateTime BirthDate { get; set; }
-    public string[] Roles => [GeneralOperationClaims.User, GeneralOperationClaims.Admin];
+    public string[] Roles => [GeneralOperationClaims.Admin];
 }

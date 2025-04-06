@@ -17,10 +17,6 @@
         <ProjectReference Include="..\HAMS.Domain\HAMS.Domain.csproj"/>
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Features\Appointment\Commands\Delete\" />
-      <Folder Include="Features\Appointment\Commands\Update\" />
-      <Folder Include="Features\Appointment\Queries\GetAll\" />
-      <Folder Include="Features\Appointment\Queries\GetById\" />
       <Folder Include="Features\Roles\Commands\Delete\" />
       <Folder Include="Features\Roles\Commands\Update\" />
       <Folder Include="Features\Roles\Queries\GetById\" />

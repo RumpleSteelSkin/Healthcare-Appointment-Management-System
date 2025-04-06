@@ -13,6 +13,9 @@ public class AppointmentConfiguration : IEntityTypeConfiguration<Appointment>
         builder.Property(c => c.IsDeleted)
             .HasDefaultValue(false);
 
+        builder.Navigation(x => x.Doctor).AutoInclude();
+        builder.Navigation(x => x.Patient).AutoInclude();
+
         builder.HasOne(x => x.Doctor)
             .WithMany(x => x.Appointments)
             .HasForeignKey(x => x.DoctorId)

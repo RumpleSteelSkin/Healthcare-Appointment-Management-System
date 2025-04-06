@@ -12,5 +12,5 @@ public class PatientUpdateCommand : IRequest<string>, IRoleExists, ITransactiona
     public required string FirstName { get; set; }
     public required string LastName { get; set; }
     public DateTime BirthDate { get; set; }
-    public string[] Roles => [GeneralOperationClaims.User, GeneralOperationClaims.Admin];
+    public string[] Roles => [GeneralOperationClaims.Admin];
 }
