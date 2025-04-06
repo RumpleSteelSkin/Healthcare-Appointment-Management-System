@@ -16,7 +16,7 @@ public static class AppRegistration
         //Warning: Priority...
         app.UseAuthentication(); //1st
         app.UseAuthorization(); //2nd
-
+        app.UseCors("AllowAll");
         app.MapControllers();
 
         app.Run();

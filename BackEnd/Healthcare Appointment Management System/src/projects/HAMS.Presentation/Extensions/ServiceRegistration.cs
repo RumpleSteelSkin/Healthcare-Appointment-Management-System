@@ -75,6 +75,18 @@ public static class ServiceRegistration
 
         #endregion
 
+        #region CORS Services
+
+        services.AddCors(opt =>
+        {
+            opt.AddPolicy("AllowAll", policy =>
+                policy.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader());
+        });
+
+        #endregion
+
         #region Global Exception Handling Services
 
         services.AddExceptionHandler<HttpExceptionHandler>();
