@@ -9,18 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04379b78-40a2-4b7e-bfe3-f08a8baabdf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/components/SocialIcons/SocialIconAll.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/components/ThemeSwitcher/ThemeContext.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/components/ThemeSwitcher/ThemeSwitcher.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/contexts/AuthContext.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/images/icons/HAMS.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/images/jpgs/blueLightWallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/images/pngs/HAMS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/images/pngs/HAMSWithText.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/js/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/pages/Authentication/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/pages/Authentication/Register.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/pages/Home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/context/AuthContext.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/context/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/context/tokenDecoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/pages/Dashboard/AdminDashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/pages/UserHome/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare Appointment Management System.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare Appointment Management System.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/bin/Debug/net8.0/Core.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/bin/Debug/net8.0/Core.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/bin/Debug/net8.0/Core.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/bin/Debug/net8.0/Core.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cores/Core.Application/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Application/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
@@ -44,26 +38,20 @@
       <change beforePath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Debug/net8.0/refint/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.CrossCuttingConcerns/obj/Debug/net8.0/refint/Core.CrossCuttingConcerns.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/bin/Debug/net8.0/Core.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/bin/Debug/net8.0/Core.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/bin/Debug/net8.0/Core.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/bin/Debug/net8.0/Core.Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/Core.Persistence.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/ref/Core.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/ref/Core.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/refint/Core.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/cores/Core.Persistence/obj/Debug/net8.0/refint/Core.Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Authentication/Commands/Login/LoginCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Authentication/Commands/Login/LoginCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Authentication/Commands/Register/RegisterCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Authentication/Commands/Register/RegisterCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Authentication/Commands/Register/RegisterCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Authentication/Commands/Register/RegisterCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Patients/Commands/Add/PatientAddCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Patients/Commands/Add/PatientAddCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Patients/Commands/Delete/PatientDeleteCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Patients/Commands/Delete/PatientDeleteCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Patients/Commands/Update/PatientUpdateCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/Features/Patients/Commands/Update/PatientUpdateCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/Core.Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/HAMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/HAMS.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/HAMS.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/HAMS.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/HAMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/HAMS.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/HAMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/bin/Debug/net8.0/HAMS.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/HAMS.Application.csproj.AssemblyReference.cache" afterDir="false" />
@@ -74,26 +62,12 @@
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/refint/HAMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Application/obj/Debug/net8.0/refint/HAMS.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/Core.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/Core.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/Core.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/Core.Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/HAMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/HAMS.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/HAMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/bin/Debug/net8.0/HAMS.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/ref/HAMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/ref/HAMS.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/refint/HAMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Domain/obj/Debug/net8.0/refint/HAMS.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/Core.Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/bin/Debug/net8.0/HAMS.Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.AssemblyInfo.cs" afterDir="false" />
@@ -104,18 +78,12 @@
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/HAMS.Persistence.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/ref/HAMS.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/ref/HAMS.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/refint/HAMS.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Persistence/obj/Debug/net8.0/refint/HAMS.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/Extensions/AppRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/Extensions/AppRegistration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/Extensions/ServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/Extensions/ServiceRegistration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/Core.Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/HAMS.Presentation/bin/Debug/net8.0/HAMS.Presentation.dll" afterDir="false" />
@@ -135,8 +103,16 @@
       <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/api/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/auth/AuthProvider.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/auth/PrivateRoute.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/auth/useAuth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/components/ThemeSwitcher/ThemeContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/components/ThemeSwitcher/ThemeSwitcher.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/pages/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/pages/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/pages/Login/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/healthcare-appointment-management-system/src/pages/Login/Register.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,12 +140,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d382df578ec93391918cfaa4ce7f4b8f35c9aed1241d6556dc9be26df13c/IdentityUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d81b2d4f22bee75e5438c707251ae43cb0974c207db91ffc159118c84b4eb9/ServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d8d9726f3deb1bbf671f5b791e4dc3e0338219a996f439ad2a69024b825c60/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/BASAKSEHIR WORKS/Healthcare Appointment Management System/BackEnd/Healthcare Appointment Management System/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/BASAKSEHIR WORKS/Healthcare Appointment Management System/BackEnd/Healthcare Appointment Management System/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/BASAKSEHIR WORKS/Healthcare Appointment Management System/BackEnd/Healthcare Appointment Management System/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/BASAKSEHIR WORKS/Healthcare Appointment Management System/BackEnd/Healthcare Appointment Management System/src/cores/Core.Application/obj/Debug/net8.0/Core.Application.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/BASAKSEHIR WORKS/Healthcare Appointment Management System/BackEnd/Healthcare Appointment Management System/src/projects/HAMS.Domain/obj/Debug/net8.0/HAMS.Domain.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d8d9726f3deb1bbf671f5b791e4dc3e0338219a996f439ad2a69024b825c60/UserManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -185,22 +156,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.HAMS.Presentation: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.HAMS.Presentation: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.HAMS.Presentation: http">
     <configuration name="HAMS.Presentation: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/projects/HAMS.Presentation/HAMS.Presentation.csproj" />
@@ -256,6 +227,7 @@
       <workItem from="1743844837872" duration="393000" />
       <workItem from="1743845262204" duration="12669000" />
       <workItem from="1743937511823" duration="11778000" />
+      <workItem from="1744040290311" duration="8145000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented entity repositories and interfaces, registered services">
       <option name="closed" value="true" />

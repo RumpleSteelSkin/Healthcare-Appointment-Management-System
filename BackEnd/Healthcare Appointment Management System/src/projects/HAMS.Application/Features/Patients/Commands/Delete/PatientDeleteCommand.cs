@@ -9,5 +9,5 @@ namespace HAMS.Application.Features.Patients.Commands.Delete;
 public class PatientDeleteCommand : IRequest<string> , IRoleExists, ITransactional, ILoggableRequest
 {
     public Guid? PatientId { get; set; }
-    public string[] Roles => [GeneralOperationClaims.Admin];
+    public string[] Roles => [GeneralOperationClaims.Admin,GeneralOperationClaims.User];
 }

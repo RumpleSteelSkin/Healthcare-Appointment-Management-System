@@ -1,54 +1,134 @@
-﻿import {useState} from "react";
+﻿import React, {useContext, useEffect, useState} from "react";
+import AuthContext from "../../context/AuthContext.jsx";
+import { decodeJwt, hasRole } from "../../context/tokenDecoder.js";
+import {login} from "../../context/api.js";
+import {Button, Paper, TextField, Typography, Container, Alert, Link} from "@mui/material";
+import LoginIcon from "@mui/icons-material/Login";
 import {useNavigate} from "react-router-dom";
-import {loginRequest, getCurrentUser} from "../../auth/";
-import {useAuth} from "../../auth/AuthProvider";
-import {TextField, Button, Typography, Box} from "@mui/material";
 
-export default function Login() {
-    const [form, setForm] = useState({userNameOrEmail: "", password: ""});
-    const [error, setError] = useState(null);
-    const auth = useAuth();
+function Login() {
+    const {setAuthToken} = useContext(AuthContext);
     const navigate = useNavigate();
+    const [formData, setFormData] = useState({
+        userNameOrEmail: "",
+        password: "",
+    });
+
+    const [errorMessages, setErrorMessages] = useState([]);
+    const [successMessage, setSuccessMessage] = useState("");
 
     const handleChange = (e) => {
-        setForm({...form, [e.target.name]: e.target.value});
+        setFormData({...formData, [e.target.name]: e.target.value});
     };
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setErrorMessages([]);
+        setSuccessMessage("");
 
-    const parseJwt = (token) => {
         try {
-            return JSON.parse(atob(token.split('.')[1]));
-        } catch (e) {
-            return null;
+            const response = await login(formData);
+            const token = response.token;
+            setAuthToken?.(token);
+
+            const decoded = decodeJwt(token);
+
+            if (!decoded) {
+                setErrorMessages(["Token çözümlenemedi."]);
+                return;
+            }
+
+            setSuccessMessage("Giriş başarılı! Yönlendiriliyorsunuz...");
+
+            if (hasRole(decoded, "Admin")) {
+                navigate('/adminDashboard');
+            } else if (hasRole(decoded, "User")) {
+                navigate('/home');
+            } else {
+                navigate('/');
+            }
+
+        } catch (error) {
+            if (error.response) {
+                const data = error.response.data;
+                if (data?.Errors) {
+                    const errorMessages = data.Errors.flatMap(e => e.Errors);
+                    setErrorMessages(errorMessages);
+
+                } else if (data?.detail) {
+                    setErrorMessages([data.detail]);
+                } else {
+                    setErrorMessages(["Bir hata oluştu. Lütfen tekrar deneyin."]);
+                }
+            } else if (error.request) {
+                setErrorMessages(["Sunucu ile bağlantı kurulamadı. Lütfen internet bağlantınızı kontrol edin."]);
+            } else {
+                setErrorMessages(["Bir hata oluştu. Lütfen tekrar deneyin."]);
+            }
         }
     };
 
-    const handleSubmit = async () => {
-        try {
-            const {token} = await loginRequest(form);
-            const decoded = parseJwt(token); // 👈 Token'dan role'ü oku
 
-            const userInfo = await getCurrentUser(token); // sunucudan detay al
-            userInfo.role = decoded.role; // token'dan gelen role ekle
-
-            auth.login(token, userInfo);
-
-            if (decoded.role.includes("Admin")) navigate("/admin");
-            else if (decoded.role.includes("User")) navigate("/user");
-            else navigate("/"); // bilinmeyen role
-        } catch (err) {
-            setError(err.title || "Login failed");
-        }
-    };
 
     return (
-        <Box>
-            <Typography variant="h4">Login</Typography>
-            <TextField label="Username or Email" name="userNameOrEmail" fullWidth margin="normal"
-                       onChange={handleChange}/>
-            <TextField label="Password" name="password" type="password" fullWidth margin="normal"
-                       onChange={handleChange}/>
-            {error && <Typography color="error">{error}</Typography>}
-            <Button variant="contained" onClick={handleSubmit}>Login</Button>
-        </Box>
+        <Container>
+            <Paper sx={{maxWidth: 400, margin: "50px auto", padding: "15px", textAlign: "center"}}>
+                <Typography variant="h6" color={"textSecondary"}>
+                    Login
+                </Typography>
+
+                <form onSubmit={handleSubmit}>
+                    <TextField
+                        label="Kullanıcı Adı veya Email"
+                        type="text"
+                        autoComplete={"userNameOrEmail"}
+                        name="userNameOrEmail"
+                        variant="outlined"
+                        fullWidth
+                        margin="normal"
+                        onChange={handleChange}
+                    />
+
+                    <TextField
+                        label="Şifre"
+                        type="password"
+                        autoComplete={"password"}
+                        name="password"
+                        variant="outlined"
+                        fullWidth
+                        margin="normal"
+                        onChange={handleChange}
+                    />
+
+                    {successMessage && <Alert severity="success" sx={{textAlign:"left",marginY:"10px"}}>{successMessage}</Alert>}
+                    {errorMessages.length > 0 && (
+                        <Alert severity="error" sx={{textAlign:"left",marginY:"10px"}}>
+                            <ul>
+                                {errorMessages.map((msg, index) => (
+                                    <li key={index}>{msg}</li>
+                                ))}
+                            </ul>
+                        </Alert>
+                    )}
+
+                    <Button variant="contained" type="submit" endIcon={<LoginIcon/>} fullWidth>
+                        Login
+                    </Button>
+                </form>
+
+                <Typography sx={{marginTop:"1rem"}}>Henüz bir hesabın yok mu? <Link
+                    component="button"
+                    variant="body2"
+                    onClick={() => {
+                        navigate("/register")
+                    }}
+                >
+                    Hesap Oluştur
+                </Link></Typography>
+
+
+            </Paper>
+        </Container>
     );
 }
+
+export default Login;

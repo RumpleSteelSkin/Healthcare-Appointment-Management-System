@@ -1,4 +1,5 @@
 ﻿using Core.CrossCuttingConcerns.Exceptions.ExceptionTypes;
+using HAMS.Application.Features.Patients.Commands.Add;
 using HAMS.Application.Services.JwtServices;
 using HAMS.Domain.Models;
 using MediatR;
@@ -6,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace HAMS.Application.Features.Authentication.Commands.Register;
 
-public class RegisterCommandHandler(UserManager<User> userManager, IJwtService jwtService)
+public class RegisterCommandHandler(UserManager<User> userManager, IJwtService jwtService, IMediator mediator)
     : IRequestHandler<RegisterCommand, AccessTokenDto>
 {
     public async Task<AccessTokenDto> Handle(RegisterCommand request, CancellationToken cancellationToken)
@@ -24,28 +25,32 @@ public class RegisterCommandHandler(UserManager<User> userManager, IJwtService j
 
         if (await userManager.FindByEmailAsync(request.Email) is not null)
             throw new BusinessException("A user with this email address already exists.");
-    
+
         if (await userManager.FindByNameAsync(request.UserName) is not null)
             throw new BusinessException("A user with this username already exists.");
 
+        Guid identifierUser = Guid.NewGuid();
         User user = new()
         {
+            Id = identifierUser,
             FirstName = request.FirstName,
             LastName = request.LastName,
             UserName = request.UserName,
-            Email = request.Email
+            Email = request.Email,
         };
 
         IdentityResult result = await userManager.CreateAsync(user, request.Password);
         if (!result.Succeeded)
+            throw new BusinessException(
+                $"User registration failed: {string.Join("; ", result.Errors.Select(e => e.Description))}");
+
+        await mediator.Send(new PatientAddCommand()
         {
-            var errorMessages = string.Join("; ", result.Errors.Select(e => e.Description));
-            throw new BusinessException($"User registration failed: {errorMessages}");
-        }
+            Id = identifierUser, FirstName = user.FirstName, LastName = user.LastName, BirthDate = request.BirthDate
+        }, cancellationToken);
 
         AccessTokenDto token = await jwtService.CreateTokenAsync(user);
 
         return token;
     }
-
 }

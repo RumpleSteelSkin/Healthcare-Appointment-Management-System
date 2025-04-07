@@ -24,7 +24,7 @@ public class LoginCommandHandler(UserManager<User> userManager, IJwtService jwtS
             throw new NotFoundException("Password cannot be null.");
 
         if (await userManager.CheckPasswordAsync(emailUser, request.Password) is false)
-            throw new BusinessException("Invalid password. Please try again.");
+            throw new BusinessException("Email/UserName or password is not correct. Please try again.");
 
         return await jwtService.CreateTokenAsync(emailUser);
     }
