@@ -2,6 +2,7 @@
 
 public class AppointmentGetAllQueryResponseDto
 {
+    public Guid Id { get; set; }
     public string? PatientFullName { get; set; }
     public string? DoctorFullName { get; set; }
     public string? AppointmentDate { get; set; }

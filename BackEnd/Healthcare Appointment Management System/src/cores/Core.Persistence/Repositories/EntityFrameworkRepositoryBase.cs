@@ -21,7 +21,7 @@ public class EntityFrameworkRepositoryBase<TEntity, TId, TContext>(TContext cont
     public async Task<ICollection<TEntity>> AddRangeAsync(ICollection<TEntity> entities,
         CancellationToken cancellationToken = default)
     {
-        if (entities is null || entities.Count == 0)
+        if (entities is null)
             throw new NotFoundException("Entities is not found!");
         await context.Set<TEntity>().AddRangeAsync(entities, cancellationToken);
         await context.SaveChangesAsync(cancellationToken);
@@ -41,7 +41,7 @@ public class EntityFrameworkRepositoryBase<TEntity, TId, TContext>(TContext cont
     public async Task<ICollection<TEntity>> UpdateRangeAsync(ICollection<TEntity> entities,
         CancellationToken cancellationToken = default)
     {
-        if (entities is null || entities.Count == 0)
+        if (entities is null)
             throw new NotFoundException("Entities is not found!");
         foreach (var entity in entities)
         {
@@ -67,7 +67,7 @@ public class EntityFrameworkRepositoryBase<TEntity, TId, TContext>(TContext cont
     public async Task<ICollection<TEntity>> DeleteRangeAsync(ICollection<TEntity> entities,
         CancellationToken cancellationToken = default)
     {
-        if (entities is null || entities.Count == 0)
+        if (entities is null)
             throw new NotFoundException("Entities is not found!");
         foreach (var entity in entities)
         {
@@ -93,7 +93,7 @@ public class EntityFrameworkRepositoryBase<TEntity, TId, TContext>(TContext cont
     public async Task<ICollection<TEntity>> HardDeleteRangeAsync(ICollection<TEntity> entities,
         CancellationToken cancellationToken = default)
     {
-        if (entities is null || entities.Count == 0)
+        if (entities is null)
             throw new NotFoundException("Entities is not found!");
         context.Set<TEntity>().RemoveRange(entities);
         await context.SaveChangesAsync(cancellationToken);

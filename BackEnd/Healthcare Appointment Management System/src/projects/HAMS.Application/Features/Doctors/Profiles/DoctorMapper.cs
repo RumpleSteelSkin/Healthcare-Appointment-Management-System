@@ -2,6 +2,7 @@
 using HAMS.Application.Features.Doctors.Commands.Add;
 using HAMS.Application.Features.Doctors.Commands.Update;
 using HAMS.Application.Features.Doctors.Queries.GetAll;
+using HAMS.Application.Features.Doctors.Queries.GetAllByHospitalId;
 using HAMS.Application.Features.Doctors.Queries.GetById;
 using HAMS.Domain.Models;
 
@@ -21,5 +22,8 @@ public class DoctorMapper : Profile
         CreateMap<Doctor, DoctorGetByIdQueryResponseDto>()
             .ForMember(x => x.FullName, opt => opt.MapFrom(x => $"{x.FirstName} {x.LastName}"))
             .ForMember(x => x.HospitalName, opt => opt.MapFrom(x => x.Hospital!.Name));
+
+        CreateMap<Doctor, DoctorGetAllByHospitalIdQueryResponseDto>()
+            .ForMember(x => x.FullName, opt => opt.MapFrom(x => $"{x.FirstName} {x.LastName}"));
     }
 }

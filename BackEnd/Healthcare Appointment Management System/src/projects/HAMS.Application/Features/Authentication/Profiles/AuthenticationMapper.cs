@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using HAMS.Application.Features.Authentication.Commands.UpdateUser;
 using HAMS.Application.Features.Authentication.Queries.GetAllUsers;
 using HAMS.Application.Features.Authentication.Queries.GetUserById;
 using HAMS.Application.Features.Authentication.Queries.GetUsersByRoleId;
@@ -18,5 +19,8 @@ public class AuthenticationMapper : Profile
 
         CreateMap<User, GetUsersByRoleIdQueryResponseDto>()
             .ForMember(x => x.FullName, opt => opt.MapFrom(x => $"{x.FirstName} {x.LastName}"));
+
+        CreateMap<UpdateUserCommand, User>()
+            .ForMember(dest => dest.Id, opt => opt.Ignore());
     }
 }

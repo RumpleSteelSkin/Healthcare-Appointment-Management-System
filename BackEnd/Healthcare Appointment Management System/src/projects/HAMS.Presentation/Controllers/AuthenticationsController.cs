@@ -1,5 +1,7 @@
+using HAMS.Application.Features.Authentication.Commands.DeleteUser;
 using HAMS.Application.Features.Authentication.Commands.Login;
 using HAMS.Application.Features.Authentication.Commands.Register;
+using HAMS.Application.Features.Authentication.Commands.UpdateUser;
 using HAMS.Application.Features.Authentication.Queries.GetAllUsers;
 using HAMS.Application.Features.Authentication.Queries.GetCurrentUser;
 using HAMS.Application.Features.Authentication.Queries.GetUserById;
@@ -21,6 +23,18 @@ public class AuthenticationsController(IMediator mediator) : ControllerBase
 
     [HttpPost("Register")]
     public async Task<IActionResult> Register(RegisterCommand command)
+    {
+        return Ok(await mediator.Send(command));
+    }
+
+    [HttpPut("UpdateUser")]
+    public async Task<IActionResult> UpdateUser(UpdateUserCommand command)
+    {
+        return Ok(await mediator.Send(command));
+    }
+
+    [HttpDelete("DeleteUser")]
+    public async Task<IActionResult> UpdateUser(DeleteUserCommand command)
     {
         return Ok(await mediator.Send(command));
     }

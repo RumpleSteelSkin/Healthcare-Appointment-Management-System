@@ -1,5 +1,7 @@
 using HAMS.Application.Features.Appointment.Commands.Add;
 using HAMS.Application.Features.Appointment.Commands.Delete;
+using HAMS.Application.Features.Appointment.Commands.DeleteRange;
+using HAMS.Application.Features.Appointment.Commands.DeleteRangeByUserId;
 using HAMS.Application.Features.Appointment.Commands.Update;
 using HAMS.Application.Features.Appointment.Queries.GetAll;
 using HAMS.Application.Features.Appointment.Queries.GetById;
@@ -26,6 +28,18 @@ public class AppointmentsController(IMediator mediator) : ControllerBase
 
     [HttpDelete("Delete")]
     public async Task<IActionResult> Delete(AppointmentDeleteCommand command)
+    {
+        return Ok(await mediator.Send(command));
+    }
+
+    [HttpDelete("DeleteRange")]
+    public async Task<IActionResult> Delete(AppointmentDeleteRangeCommand command)
+    {
+        return Ok(await mediator.Send(command));
+    }
+
+    [HttpDelete("DeleteRangeByUserId")]
+    public async Task<IActionResult> Delete(AppointmentDeleteRangeByUserIdCommand command)
     {
         return Ok(await mediator.Send(command));
     }

@@ -2,6 +2,7 @@ using HAMS.Application.Features.Doctors.Commands.Add;
 using HAMS.Application.Features.Doctors.Commands.Delete;
 using HAMS.Application.Features.Doctors.Commands.Update;
 using HAMS.Application.Features.Doctors.Queries.GetAll;
+using HAMS.Application.Features.Doctors.Queries.GetAllByHospitalId;
 using HAMS.Application.Features.Doctors.Queries.GetById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -40,5 +41,11 @@ public class DoctorsController(IMediator mediator) : ControllerBase
     public async Task<IActionResult> GetById(Guid? doctorId = null)
     {
         return Ok(await mediator.Send(new DoctorGetByIdQuery { DoctorId = doctorId }));
+    }
+
+    [HttpGet("GetAllByHospitalId")]
+    public async Task<IActionResult> GetAllByHospitalId(Guid? hospitalId = null)
+    {
+        return Ok(await mediator.Send(new DoctorGetAllByHospitalIdQuery() { hospitalId = hospitalId }));
     }
 }
