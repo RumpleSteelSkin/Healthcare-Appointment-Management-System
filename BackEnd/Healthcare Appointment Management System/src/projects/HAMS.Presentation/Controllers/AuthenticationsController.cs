@@ -5,6 +5,7 @@ using HAMS.Application.Features.Authentication.Commands.UpdateUser;
 using HAMS.Application.Features.Authentication.Queries.GetAllUsers;
 using HAMS.Application.Features.Authentication.Queries.GetCurrentUser;
 using HAMS.Application.Features.Authentication.Queries.GetUserById;
+using HAMS.Application.Features.Authentication.Queries.GetUserDetailById;
 using HAMS.Application.Features.Authentication.Queries.GetUsersByRoleId;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -62,5 +63,11 @@ public class AuthenticationsController(IMediator mediator) : ControllerBase
     public async Task<IActionResult> GetUsersByRoleId(Guid? roleId = null)
     {
         return Ok(await mediator.Send(new GetUsersByRoleIdQuery { RoleId = roleId }));
+    }
+
+    [HttpGet("GetUserDetailsById")]
+    public async Task<IActionResult> GetUserDetailsById(Guid? userId = null)
+    {
+        return Ok(await mediator.Send(new GetUserDetailByIdCommand{UserId = userId}));
     }
 }

@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "UC1NOWICDzuxyy87ckAOxtvix/7pvWLj1MYRH1SSfNU=",
+  "Hash": "m/mR57IDl0/knTsQi5m/3Mu8gNHU9JIBwNb7xqiltoI=",
   "Source": "HAMS.Presentation",
   "BasePath": "_content/HAMS.Presentation",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

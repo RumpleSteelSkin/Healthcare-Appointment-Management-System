@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\HAMS.Presentation.csproj": {}
+    "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\HAMS.Presentation.csproj": {}
   },
   "projects": {
-    "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj": {
+    "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj",
         "projectName": "Core.Application",
-        "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj",
-        "packagesPath": "C:\\Users\\QWERTY_V5\\.nuget\\packages\\",
-        "outputPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\obj\\",
+        "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj",
+        "packagesPath": "C:\\Users\\erhan.kaplan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\QWERTY_V5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erhan.kaplan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
               }
             }
           }
@@ -44,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -87,21 +91,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+    "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectUniqueName": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
         "projectName": "Core.CrossCuttingConcerns",
-        "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
-        "packagesPath": "C:\\Users\\QWERTY_V5\\.nuget\\packages\\",
-        "outputPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\obj\\",
+        "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "packagesPath": "C:\\Users\\erhan.kaplan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\QWERTY_V5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erhan.kaplan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,7 +117,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,7 +134,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -170,21 +178,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj": {
+    "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj",
         "projectName": "Core.Persistence",
-        "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj",
-        "packagesPath": "C:\\Users\\QWERTY_V5\\.nuget\\packages\\",
-        "outputPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj",
+        "packagesPath": "C:\\Users\\erhan.kaplan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\QWERTY_V5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erhan.kaplan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -192,15 +204,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
               }
             }
           }
@@ -214,7 +225,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -245,21 +257,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj": {
+    "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj",
+        "projectUniqueName": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj",
         "projectName": "HAMS.Application",
-        "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj",
-        "packagesPath": "C:\\Users\\QWERTY_V5\\.nuget\\packages\\",
-        "outputPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\obj\\",
+        "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj",
+        "packagesPath": "C:\\Users\\erhan.kaplan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\QWERTY_V5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erhan.kaplan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,21 +283,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Application\\Core.Application.csproj"
               },
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
               },
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj"
               }
             }
           }
@@ -295,7 +310,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -334,21 +350,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj": {
+    "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj",
         "projectName": "HAMS.Domain",
-        "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj",
-        "packagesPath": "C:\\Users\\QWERTY_V5\\.nuget\\packages\\",
-        "outputPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\obj\\",
+        "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj",
+        "packagesPath": "C:\\Users\\erhan.kaplan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\QWERTY_V5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erhan.kaplan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -356,15 +376,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\cores\\Core.Persistence\\Core.Persistence.csproj"
               }
             }
           }
@@ -378,7 +397,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -405,21 +425,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj": {
+    "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj",
         "projectName": "HAMS.Persistence",
-        "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj",
-        "packagesPath": "C:\\Users\\QWERTY_V5\\.nuget\\packages\\",
-        "outputPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj",
+        "packagesPath": "C:\\Users\\erhan.kaplan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\QWERTY_V5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erhan.kaplan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -427,18 +451,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj"
               },
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj"
               }
             }
           }
@@ -452,7 +475,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -487,21 +511,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\HAMS.Presentation.csproj": {
+    "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\HAMS.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\HAMS.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\HAMS.Presentation.csproj",
         "projectName": "HAMS.Presentation",
-        "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\HAMS.Presentation.csproj",
-        "packagesPath": "C:\\Users\\QWERTY_V5\\.nuget\\packages\\",
-        "outputPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\obj\\",
+        "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\HAMS.Presentation.csproj",
+        "packagesPath": "C:\\Users\\erhan.kaplan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Presentation\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\QWERTY_V5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erhan.kaplan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -509,21 +537,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Application\\HAMS.Application.csproj"
               },
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Domain\\HAMS.Domain.csproj"
               },
-              "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj": {
-                "projectPath": "D:\\BASAKSEHIR WORKS\\Healthcare Appointment Management System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj"
+              "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj": {
+                "projectPath": "C:\\Users\\bes080124\\Desktop\\Masaüstü 2\\SOURCES\\Healthcare-Appointment-Management-System\\BackEnd\\Healthcare Appointment Management System\\src\\projects\\HAMS.Persistence\\HAMS.Persistence.csproj"
               }
             }
           }
@@ -537,7 +564,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -593,7 +621,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

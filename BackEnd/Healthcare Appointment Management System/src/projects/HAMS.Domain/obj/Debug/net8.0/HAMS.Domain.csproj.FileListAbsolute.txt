@@ -16,3 +16,21 @@ D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare 
 D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\bin\Debug\net8.0\Core.Persistence.pdb
 D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb
 D:\BASAKSEHIR WORKS\Healthcare Appointment Management System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Dom.E304A9D4.Up2Date
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\bin\Debug\net8.0\HAMS.Domain.deps.json
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\bin\Debug\net8.0\HAMS.Domain.dll
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\bin\Debug\net8.0\HAMS.Domain.pdb
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\bin\Debug\net8.0\Core.Persistence.dll
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\bin\Debug\net8.0\Core.Persistence.pdb
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Domain.csproj.AssemblyReference.cache
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Domain.AssemblyInfoInputs.cache
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Domain.AssemblyInfo.cs
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Domain.sourcelink.json
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Dom.E304A9D4.Up2Date
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Domain.dll
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\refint\HAMS.Domain.dll
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\HAMS.Domain.pdb
+C:\Users\bes080124\Desktop\Masaüstü 2\SOURCES\Healthcare-Appointment-Management-System\BackEnd\Healthcare Appointment Management System\src\projects\HAMS.Domain\obj\Debug\net8.0\ref\HAMS.Domain.dll

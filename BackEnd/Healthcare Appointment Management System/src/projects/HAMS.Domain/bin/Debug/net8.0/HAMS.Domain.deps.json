@@ -1270,7 +1270,10 @@
           "Serilog.Sinks.MSSqlServer": "8.2.0"
         },
         "runtime": {
-          "Core.CrossCuttingConcerns.dll": {}
+          "Core.CrossCuttingConcerns.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Core.Persistence/1.0.0": {
@@ -1280,7 +1283,10 @@
           "Microsoft.EntityFrameworkCore": "8.0.8"
         },
         "runtime": {
-          "Core.Persistence.dll": {}
+          "Core.Persistence.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

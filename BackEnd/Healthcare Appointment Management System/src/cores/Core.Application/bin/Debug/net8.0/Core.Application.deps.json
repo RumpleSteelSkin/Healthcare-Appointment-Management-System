@@ -1182,7 +1182,10 @@
           "Serilog.Sinks.MSSqlServer": "8.2.0"
         },
         "runtime": {
-          "Core.CrossCuttingConcerns.dll": {}
+          "Core.CrossCuttingConcerns.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
